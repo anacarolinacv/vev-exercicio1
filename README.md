@@ -11,6 +11,11 @@
 - Ana Carolina Chaves de Vasconcelos
 - Eduardo Afonso Nunes da Silva
 
+## Especificações escolhidas
+
+- [Calculadora de Salário](https://github.com/anacarolinacv/vev-exercicio2/tree/exercicio2-anacarolina)
+- [Gerador de Nota Fiscal](https://github.com/anacarolinacv/vev-exercicio2/tree/exercicio2-eduardonunes)
+
 ## Foco
 
 - Aplicar todos os passos de TDD
