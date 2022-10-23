@@ -27,5 +27,9 @@
 
 - Ana Carolina Chaves de Vasconcelos
 
-Minha experiência com TDD ainda se tornou bastante confusa, porque como é uma forma diferente de pensar sobre o problema e gerar uma solução  tive dificuldade de processar tudo de maneira inversa ao que costumeiramente faço. 
+Minha experiência com TDD ainda se tornou bastante confusa, porque como é uma forma diferente de pensar sobre o problema e gerar uma solução  tive dificuldade de processar tudo de maneira inversa ao que costumeiramente faço.  
+
+- Eduardo Afonso Nunes da Silva  
+
+O TDD é um pouco complexo para mim, pois estou acostumado a desenvolver a funcionalidade e depois testar. Então, pensar no "que" antes do "como" fazer não veio tão naturalmente, mas com práticas, uma hora começa a fluir.
 
