@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class ServicoNotaFiscal {
+public class ServicoNotaFiscalTests {
 
     ServicoNotaFiscal servicoNotaFiscal = new ServicoNotaFiscal();
 
@@ -27,20 +27,20 @@ public class ServicoNotaFiscal {
     }
 
     @Test
-    void dadoTipoServicoConsultoriaOImpostoEhCalculado(){
-        NotaFiscal nf = servicoNotaFiscal.criaNotaFiscal(faturaConsultoria);
+    void dadoTipoServicoConsultoriaEntaoOImpostoEhCalculado(){
+        NotaFiscal nf = servicoNotaFiscalTests.criaNotaFiscal(faturaConsultoria);
         Assertions.assertEquals(nf.getValorImposto(), nf.getValor() * 0.35);
     }
 
     @Test
-    void dadoTipoServicoTreinamentoOImpostoEhCalculado(){
-        NotaFiscal nf = servicoNotaFiscal.criaNotaFiscal(faturaTreinamento);
+    void dadoTipoServicoTreinamentoEntaoOImpostoEhCalculado(){
+        NotaFiscal nf = servicoNotaFiscalTests.criaNotaFiscal(faturaTreinamento);
         Assertions.assertEquals(nf.getValorImposto(), nf.getValor() * 0.15);
     }
 
     @Test
-    void dadoOutroTipoServicoOImpostoEhCalculado(){
-        NotaFiscal nf = servicoNotaFiscal.criaNotaFiscal(faturaTreinamento);
+    void dadoOutroTipoServicoEntaoOImpostoEhCalculado(){
+        NotaFiscal nf = servicoNotaFiscalTests.criaNotaFiscal(faturaTreinamento);
         Assertions.assertEquals(nf.getValorImposto(), nf.getValor().getValor() * 0.06);
     }
 }
