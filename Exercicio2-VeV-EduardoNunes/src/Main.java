@@ -1,4 +1,5 @@
 import modelos.Fatura;
+import servicos.CriaTipoServico;
 import servicos.ServicoNotaFiscal;
 
 import java.util.Scanner;
@@ -9,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Fatura fatura = cadastraFatura();
-        servicoNotaFiscal.geraNotaFiscal(fatura);
+        servicoNotaFiscal.geraNota(fatura);
     }
 
     public static Fatura cadastraFatura(){

@@ -1,3 +1,5 @@
+package servicos;
+
 import modelos.TipoServico;
 
 public class CriaTipoServico {
