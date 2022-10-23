@@ -19,3 +19,8 @@
 - Escreva um código flexível o suficiente para que novas mudanças sejam fáceis de serem implementadas.
 
 ## Relatório de experiência
+
+- Ana Carolina Chaves de Vasconcelos
+
+Minha experiência com TDD ainda se tornou bastante confusa, porque como é uma forma diferente de pensar sobre o problema e gerar uma solução  tive dificuldade de processar tudo de maneira inversa ao que costumeiramente faço. 
+
