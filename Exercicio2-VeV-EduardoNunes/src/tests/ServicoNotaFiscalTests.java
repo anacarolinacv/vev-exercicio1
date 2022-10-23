@@ -1,4 +1,4 @@
-package servicos;
+package tests;
 
 import dao.NotaFiscalDao;
 import modelos.Fatura;
@@ -7,6 +7,8 @@ import modelos.TipoServico;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import servicos.CriaTipoServico;
+import servicos.ServicoNotaFiscal;
 
 public class ServicoNotaFiscalTests {
 
